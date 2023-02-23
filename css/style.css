@@ -1,0 +1,233 @@
+body{
+    position: relative;
+    margin: 0px;
+}
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:1360px;
+}
+.mainlogo{
+    height: auto;
+    width: 200px;
+}
+.mainbox{
+    background-color: inherit;
+    height:580px;
+    
+    display: inline-flex;
+    
+}
+.phonebox{
+    background-image: url(/pic/mobile.jpg );;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:580px;
+    width:380px;
+    margin-top: 40px;
+    margin-left: 290px;
+    display: flex;
+}
+.phonebox_img{
+    margin-left: 112px;
+    margin-top: 29px;
+    background-color:inherit;
+    height:533px;
+    border-radius: 20px;
+    width:248px;
+    
+    
+}
+.container{
+    height:560px;
+    width:340px;
+    margin-top: 50px;
+    margin-left: 30px;  
+}
+.loginbox{
+    border: 1px solid #c9c9c9;
+    height:395px;
+    width:340px;
+}
+.logo{
+    cursor: pointer;
+    height:60px;
+    width:175px;
+    margin-left: 80px;
+    margin-top: 35px;
+}
+.userbox{
+    border: solid 1px rgb(228, 227, 227);
+    background-color: #f7f6f6;
+    border-radius: 3px;
+    margin-top: 35px;
+    margin-left: 40px;
+    height:35px;
+    width: 255px;
+
+}
+.passwordbox{
+    background-color: #f7f6f6;
+    border: solid 1px rgb(228, 227, 227);
+    border-radius: 3px;
+    margin-top: 7px;
+    margin-left: 40px;
+    height:35px;
+    width: 255px;
+
+}
+input{
+    background-color: #f7f6f6;
+    border: none;
+    border-radius: 3px;
+    margin-top: 2px;
+    margin-left: 5px;
+    height:30px;
+    width: 240px;
+    outline: none;
+}
+
+input::placeholder{
+    font-size: 90%;
+}
+
+
+button{ 
+    background-color: #5db9dd;
+    border:none;
+    color: aliceblue;
+    border-radius: 7px;
+    margin-top: 13px;
+    margin-left: 41px;
+    height:32px;
+    width: 262px;
+}
+button a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.linebox{
+    display: flex;
+}
+.linebox a{
+    font-size: 80%;
+    margin-bottom: -40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 13px;
+    margin-left: 15px;
+    margin-right: -25px;
+    color: #8b8b8b;
+}
+.line{
+    background-color: rgb(209, 209, 209);
+    margin-top: 20px;
+    margin-left: 41px;
+    height: 1px;
+    width: 105px;
+       
+}
+.fbbox{
+    margin-top: 35px;
+    margin-left: 90px;
+    display: inline-flex;
+    cursor: pointer;
+}
+.fbbox a{
+    text-decoration: none;
+    margin-left: 8px;
+    color: #375184;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    font-weight: bolder;
+    margin-bottom: 22px;
+}
+.fbbox_a2{
+    text-decoration: none;
+    margin-left: 100px;
+    color: #375184;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+ }
+.signbox{
+    border: 1px solid #c9c9c9;
+    height:60px;
+    width:340px;
+    margin-top: 10px;
+}
+.signboxtext{
+    margin-top: 20px;
+    margin-left: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.signbox a{
+    font-size: 90%;
+ }
+.signbox a1{
+    color: #30abdb;
+    font-size: 90%;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.store{
+    height:90px;
+    width:340px;    
+}
+.storetxt {
+    margin-top: 20px;
+}
+.storetxt a{
+    margin-left: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    color: #252525;
+}
+.playbox{
+    margin-top: 6px;
+    height: 50px;
+    width: 340px;
+    display: inline-flex;
+}
+.appstore{
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 33px;
+    width: 137px;
+    height: 42px;
+}
+.playstore{
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 137px;
+    height: 43px;
+}
+.ref_box{
+    margin-top: 60px;
+    height:110px;
+    max-width: none;
+}
+.ref_text{
+    margin-top: -20px;
+    margin-left: 265px;
+    height: 20px;
+    display: inline-flex;
+}
+.ref_text a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #8b8b8b;
+}
+.copyrightsbox{
+    margin-top: 10px;
+    margin-left: 530px;
+    height: 20px;
+}
+.copyrightsbox a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70%;
+    margin-left: 30px;
+    color: #8b8b8b;
+}
